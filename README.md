@@ -2,7 +2,9 @@
 ## Abstract
 
 ## How to navigate this repository
-This repository contains the code I used in Chapter 4 of my dissertation. I have seperated each step in my research process into seperate Jupyter workbooks. First, I obtained my data using the code in [TwitterScraping.ipynb](https://github.com/brandon-daniels/Mediality-of-Teacher-Strikes/blob/main/TwitterScraping.ipynb). This outputs a CSV file with the modest size of 57MB. I have not included this file in the repository in the case that someone deletes their tweets, so that it would not be permentantly recorded on this page. 
+This repository contains the code I used in Chapter 4 of my dissertation. I have seperated each step in my research process into seperate Jupyter workbooks. 
+
+First, I obtained my data using the code in [TwitterScraping.ipynb](https://github.com/brandon-daniels/Mediality-of-Teacher-Strikes/blob/main/TwitterScraping.ipynb). This outputs a CSV file with the modest size of 57MB. I have not included this file in the repository in the case that someone deletes their tweets, so that it would not be permentantly recorded on this page. 
 
 Second, I processed the data and created a set of exploratory data visualizations with the code in [RedForEd.ipynb](https://github.com/brandon-daniels/Mediality-of-Teacher-Strikes/blob/main/RedforEd.ipynb). 
 
