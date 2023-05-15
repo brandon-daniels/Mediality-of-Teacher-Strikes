@@ -6,12 +6,15 @@ This repository contains the code I used in Chapter 4 of my dissertation. I have
 
 ## Prepare Python environment 
 In order to set up your environment to run the code, first install all requirements. I use conda. 
+
 `
 conda env create -f environment.yml
 `
+
 But feel free to also use pip.
+
 `
-pip install -r requirements.txt
+pip install -r pip-requirements.txt
 `
 
 First, I obtained my data using the code in [TwitterScraping.ipynb](https://github.com/brandon-daniels/Mediality-of-Teacher-Strikes/blob/main/TwitterScraping.ipynb). This outputs a CSV file with the modest size of 57MB. I have not included this file in the repository in the case that someone deletes their tweets, so that it would not be permentantly recorded on this page. 
@@ -21,5 +24,6 @@ Second, I processed the data and created a set of exploratory data visualization
 Third, I deployed the method of time series topic modelling in the [Time-Series-Topic-Modelling.ipynb](https://github.com/brandon-daniels/Mediality-of-Teacher-Strikes/blob/main/Time-Series-Modelling.ipynb) workbook. ([Thanks to Melanie Walsh!](https://melaniewalsh.github.io/Intro-Cultural-Analytics/05-Text-Analysis/11-Topic-Modeling-Time-Series.html)) to discover coherent word groupings across the dataset of tweets, and I plotted these discovered topics according to the probability that they would appear during certain months of the 2-year period. Topic modelling is an iterative process, and it may require generating multiple models before similar results appear. 
 
 Fourth and finally, [Geoparsing.ipynb](https://github.com/brandon-daniels/Mediality-of-Teacher-Strikes/blob/main/Geoparsing.ipynb) contains the code I used the method of geoparsing ([Thanks to Andrew Haltman!](https://github.com/openeventdata/mordecai)) to discover references to geopgrahic locations and plot them on a map of the United States. 
+
 ### Map
 A viewable version of this map is available at https://brandon-daniels.github.io/Mediality-of-Teacher-Strikes/
