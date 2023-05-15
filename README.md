@@ -16,6 +16,8 @@ But feel free to also use pip.
 `
 pip install -r pip-requirements.txt
 `
+## Navigating workbooks
+You need some version of Jupyter to interact with the code in these workbooks. I use the VS Code extension for [Jupyter Notebooks](https://code.visualstudio.com/docs/datascience/jupyter-notebooks).
 
 First, I obtained my data using the code in [TwitterScraping.ipynb](https://github.com/brandon-daniels/Mediality-of-Teacher-Strikes/blob/main/TwitterScraping.ipynb). This outputs a CSV file with the modest size of 57MB. I have not included this file in the repository in the case that someone deletes their tweets, so that it would not be permentantly recorded on this page. 
 
